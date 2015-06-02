@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>kinetic scrolling</title>
+        <script src="lib/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+        <script src="jquery.kinetic.js" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <p>
+               Kinetic Scrolling And Zoom_in/Zoom_out.
+            </p>
+            <div id="wrapper">
+                <div id="inner">
+                    <img class='zoom' src="images/sample.jpg" alt="wembley stadium" />
+                    <script src="wheelzoom.js"></script>
+                    <script>
+		                     wheelzoom(document.querySelector('img.zoom'));
+	                 </script>
+                </div>
+            </div>
+           <script src="jquery.move.js" type="text/javascript" charset="utf-8"></script>
+        </div>
+    </body>
+</html>
